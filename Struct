@@ -1,0 +1,71 @@
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    using System;
+
+    struct Data
+        {
+            public int dia;
+             public int mes;
+            public int ano;
+        }
+
+    namespace AtividadeStruct
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                Data d;
+
+                Console.Write("Digite o dia: ");
+                d.dia = int.Parse(Console.ReadLine());
+
+                Console.Write("Digite o mês: ");
+                d.mes = int.Parse(Console.ReadLine());
+
+                Console.Write("Digite o ano: ");
+                d.ano = int.Parse(Console.ReadLine());
+
+                // Verifica se a data é válida
+                if (d.ano > 0)
+                {
+                    if (d.mes >= 1 && d.mes <= 12)
+                    {
+                        if (d.dia >= 1 && d.dia <= 31)
+                        {
+                            // Meses com 30 dias
+                            if ((d.mes == 4 || d.mes == 6 || d.mes == 9 || d.mes == 11) && d.dia > 30)
+                            {
+                                Console.WriteLine("Data inválida!");
+                            }
+                            else if (d.mes == 2 && d.dia > 29)
+                            {
+                                Console.WriteLine("Data inválida!");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Data válida!");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Dia inválido!");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Mês inválido!");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Ano inválido!");
+                }
+            }
+        }
+    }
+

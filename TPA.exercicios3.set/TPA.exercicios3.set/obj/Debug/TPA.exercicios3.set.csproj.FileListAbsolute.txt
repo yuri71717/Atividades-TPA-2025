@@ -1,0 +1,7 @@
+C:\Users\yuria\source\repos\TPA.exercicios3.set\TPA.exercicios3.set\bin\Debug\TPA.exercicios3.set.exe.config
+C:\Users\yuria\source\repos\TPA.exercicios3.set\TPA.exercicios3.set\bin\Debug\TPA.exercicios3.set.exe
+C:\Users\yuria\source\repos\TPA.exercicios3.set\TPA.exercicios3.set\bin\Debug\TPA.exercicios3.set.pdb
+C:\Users\yuria\source\repos\TPA.exercicios3.set\TPA.exercicios3.set\obj\Debug\TPA.exercicios3.set.csproj.AssemblyReference.cache
+C:\Users\yuria\source\repos\TPA.exercicios3.set\TPA.exercicios3.set\obj\Debug\TPA.exercicios3.set.csproj.CoreCompileInputs.cache
+C:\Users\yuria\source\repos\TPA.exercicios3.set\TPA.exercicios3.set\obj\Debug\TPA.exercicios3.set.exe
+C:\Users\yuria\source\repos\TPA.exercicios3.set\TPA.exercicios3.set\obj\Debug\TPA.exercicios3.set.pdb

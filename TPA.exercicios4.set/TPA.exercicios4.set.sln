@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPA.exercicios4.set", "TPA.exercicios4.set\TPA.exercicios4.set.csproj", "{78C576D8-2C2E-458E-AA4E-7DCFF7A07856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78C576D8-2C2E-458E-AA4E-7DCFF7A07856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C576D8-2C2E-458E-AA4E-7DCFF7A07856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C576D8-2C2E-458E-AA4E-7DCFF7A07856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C576D8-2C2E-458E-AA4E-7DCFF7A07856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D94C9F57-FD35-4681-94EA-6AEC7F3111F1}
+	EndGlobalSection
+EndGlobal

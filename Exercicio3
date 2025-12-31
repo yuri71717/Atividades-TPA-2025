@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exerciocio4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Informe o sexo (M para masculino, F para feminino): ");
+            char sexo = char.ToUpper(Console.ReadKey().KeyChar);
+            Console.WriteLine();
+            Console.ReadKey();
+
+            Console.Write("Informe a altura (em metros): ");
+            double altura = double.Parse(Console.ReadLine());
+                        
+
+            double pesoIdeal = CalcularPesoIdeal(sexo, altura);
+            Console.WriteLine($"O peso ideal para uma altura de {altura}m e sexo '{sexo}' é: {pesoIdeal:F2}");
+
+        }
+
+        private static double CalcularPesoIdeal(char sexo, double altura)
+        {
+            if (sexo == 'M')
+                return (72.7 * altura) - 58;
+            else if (sexo == 'F')
+                return (62.1 * altura) - 44.7;
+            else
+                return 0;
+        }
+
+    }
+}
+        
+    
+
